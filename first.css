@@ -10,8 +10,8 @@ li,
 ol {
   list-style-type: none;
 }
-button{
-    border: none;
+button {
+  border: none;
 }
 h1 {
   font-size: 64px;
@@ -25,14 +25,11 @@ a {
 }
 /* common class */
 .container {
-  max-width: 1280px;
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
-  height: 100px;
 }
-main section{
-    margin: 140px 0;
-}
+
 .color-white {
   color: #fff;
 }
@@ -67,6 +64,7 @@ main section{
 /* nav style here */
 .top-nav {
   height: 100px;
+  padding-top: 20px;
 }
 .logo,
 .menu,
@@ -89,6 +87,200 @@ main section{
   width: 100%;
   height: 400px;
 }
-.left-side button{
-    margin-top: 60px;
+.left-side button {
+  margin-top: 60px;
+}
+
+/* project section css here */
+.project {
+  margin-top: 140px;
+}
+.project-left-side,
+.project-right-side {
+  width: 50%;
+}
+.section-title {
+  position: relative;
+}
+.section-title h2 {
+  text-transform: capitalize;
+  font-size: 32px;
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -1.44px;
+  line-height: normal;
+}
+.section-title span {
+  position: absolute;
+  content: "";
+  width: 50%;
+  left: 5px;
+  height: 8px;
+  bottom: 12px;
+  z-index: -1;
+  transform: rotateX(45deg);
+  background-color: #ccc925;
+}
+.project-left-side p {
+  color: #212529;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  padding: 0 50px 0 0;
+  margin-top: 24px;
+  margin-bottom: 60px;
+}
+
+/* work section style here */
+.work {
+  margin-top: 140px;
+}
+.work-left-side,
+.work-right-side {
+  width: 50%;
+}
+.work-left-side img {
+  width: 80%;
+  display: block;
+  height: 400px;
+  object-position: center;
+  object-fit: cover;
+}
+.work-right-side {
+  margin-top: 50px;
+}
+.work-right-side .section-title span {
+  left: 35%;
+  width: 40%;
+}
+.work-right-side p {
+  color: #212529;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-top: 24px;
+  margin-bottom: 60px;
+}
+/* extention style here */
+.extention {
+  margin-top: 40px;
+  background-color: #043873;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.extention.left-side,
+.extention.right-side {
+  width: 50%;
+}
+.extention-left-side .section-title h2 {
+  color: #fff;
+  margin-bottom: 24px;
+}
+.extention-left-side p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+}
+
+/* pricing section here */
+
+.pricing {
+  margin-top: 140px;
+}
+
+.pricing-section-heading {
+  margin-bottom: 60px;
+}
+.pricing-section-heading h2 {
+  color: #212529;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  margin-bottom: 30px;
+}
+.pricing-section-heading p {
+  color: #212529;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.pricing-col {
+  padding: 40px 44px;
+  transition: all ease-in-out 0.3s;
+}
+.pricing-col h4 {
+  color: #212529;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+.pricing-col h3 {
+  color: #212529;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  margin: 20px 0;
+}
+.pricing-col p {
+  color: #212529;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.36px;
+}
+.pricing-list {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.pricing-col:hover {
+  background-color: #043873;
+  padding: 80px 44px;
+  border-radius: 8px;
+}
+.pricing-col:hover h4,
+.pricing-col:hover p,
+.pricing-col:hover .pricing-list li span {
+  color: #fff;
+}
+.pricing-col:hover h3, .pricing-col:hover .pricing-list li i{
+  color: #FFE492;
+}
+.pricing-col:hover button{
+  background-color:  #4f9cf9;
+  color: #fff;
+  padding: 16px 40px;
+}
+.pricing-list li {
+  margin-bottom: 10px;
+}
+.pricing-list i {
+  margin-right: 15px;
+}
+.pricing-list li span {
+  color: #212529;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
 }
